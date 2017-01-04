@@ -25,3 +25,9 @@ This project shows how to build a RESTful web service using Spring 3.1 MVC. It w
 * Source Code
 
 Complete Tutorial [Web Service with Spring 3.1] (http://www.techiekernel.com/2012/12/restful-web-service-with-spring-31.html)
+
+
+##AO
+Uruchomienie: 
+http://localhost:8080/SpringMVC-REST/foobaresample1
+http://localhost:8080/SpringMVC-REST/foobaresample1/5
