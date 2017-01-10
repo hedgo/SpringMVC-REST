@@ -28,7 +28,7 @@ public class FooBarServiceExample1 {
 	static {
 		fooBarSet = new FooBarSet();
 		FooBar foobar = null;
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 15; i++) {
 			foobar = new FooBar(i, "TechieKernel" + i);
 			fooBarSet.add(foobar);
 		}

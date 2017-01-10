@@ -9,6 +9,15 @@ import org.codehaus.jackson.annotate.JsonAutoDetect;
 public class FooBar {
 	int id;
 	String name;
+	String moja_pensja;
+
+	public String getMoja_pensja() {
+		return moja_pensja;
+	}
+
+	public void setMoja_pensja(String moja_pensja) {
+		this.moja_pensja = moja_pensja;
+	}
 
 	public FooBar() {
 		this.id = 1;
