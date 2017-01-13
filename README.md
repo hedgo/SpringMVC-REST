@@ -28,7 +28,7 @@ Complete Tutorial [Web Service with Spring 3.1] (http://www.techiekernel.com/201
 
 
 ##AO
-
+Dobra apliakcja do requestów rest: POSTMAN, instalowana przez chromewebapps
 
 GET:
 http://localhost:8080/SpringMVC-REST/foobar
