@@ -28,6 +28,75 @@ Complete Tutorial [Web Service with Spring 3.1] (http://www.techiekernel.com/201
 
 
 ##AO
-Uruchomienie: 
-http://localhost:8080/SpringMVC-REST/foobaresample1
-http://localhost:8080/SpringMVC-REST/foobaresample1/5
+
+
+GET:
+http://localhost:8080/SpringMVC-REST/foobar
+[
+  {
+    "id": 0,
+    "name": "ql0",
+    "moja_pensja": null
+  },
+  {
+    "id": 1,
+    "name": "ql1",
+    "moja_pensja": null
+  },
+  {
+    "id": 2,
+    "name": "ql2",
+    "moja_pensja": null
+  },
+  {
+    "id": 3,
+    "name": "ql3",
+    "moja_pensja": null
+  },
+  {
+    "id": 4,
+    "name": "ql4",
+    "moja_pensja": null
+  }
+]
+
+GET:
+http://localhost:8080/SpringMVC-REST/foobar/4
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fooBar>
+    <id>4</id>
+    <name>ql4</name>
+</fooBar>
+
+
+PUT:
+http://localhost:8080/SpringMVC-REST/foobar/3
+Headres: Content-Type=application/json
+Body:
+  {
+    "id": 3,
+    "name": "ql3",
+    "moja_pensja": "100k!"
+  }
+Response:
+  {
+    "id": 3,
+    "name": "ql3",
+    "moja_pensja": "100k!"
+  }
+  
+POST:
+http://localhost:8080/SpringMVC-REST/foobar
+Headres: Content-Type=application/json
+Body:
+  {
+    "id": 14,
+    "name": "q3 rulezzzzzzzzzzzzzzzzzzzzzzz"
+  }
+Response: true
+
+ DELETE:
+ http://localhost:8080/SpringMVC-REST/foobar/3
+Response: true  
+
+
